@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KanjiCards Download</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        header {
+            background-color: #212529;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .download-btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #212529;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Download KanjiCards 1.0.4</h1>
+    </header>
+
+    <div class="container">
+        <h2>The Best Way to Master Kanji! (or other subjects)</h2>
+        <p>Improve your Kanji (or anything other) skills with our beautifully designed flashcards for macOS and Windows.</p>
+        
+        <a href="Kanji Cards MacOS.zip" class="download-btn">Download for macOS</a>
+        <a href="Kanji Cards.zip" class="download-btn">Download for Windows</a>
+    </div>
+
+    <footer>
+        <p>&copy; KanjiCards by Siuozl & OceanVerse</p>
+    </footer>
+
+</body>
+</html>
